@@ -24,7 +24,7 @@ function Footer() {
       <div className="max-w-[1200px] m-auto text-center px-8">
         <div className="flex justify-center gap-6 mb-6">
           {FooterItem.map(({ href, label }) => (
-            <a key={href} target="_blank" className="text-white">
+            <a key={href} target="_blank" href={href} className="text-white">
               {label}
             </a>
           ))}

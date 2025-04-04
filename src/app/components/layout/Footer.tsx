@@ -30,9 +30,11 @@ function Footer() {
           ))}
         </div>
         <p className="opacity-60 text-white">
-          © 2025 Ian. All rights reserved.
+          기획자의 마인드를 탑재한 리더, 김승현
           <br />
-          <small>기획자의 마인드를 탑재한 리더, 김승현</small>
+          <small>seunghyeone2@gmail.com</small>
+          <br />
+          <small>010-5635-0561</small>
         </p>
       </div>
     </footer>

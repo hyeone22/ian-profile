@@ -15,9 +15,9 @@ function HeaderMenu({ setIsOpen, handleTop, isOpen }: HeaderMenuProps) {
   const menuItems: MenuType[] = [
     { path: "/", label: "홈" },
     { path: "/introduce", label: "소개" },
-    { path: "/how-to-use", label: "프로젝트" },
+    { path: "/project", label: "프로젝트" },
+    { path: "/pickup", label: "가치관" },
     { path: "/contact", label: "문의하기" },
-    { path: "/pickup", label: "수거" },
   ];
 
   return (
